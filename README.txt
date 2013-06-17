@@ -8,7 +8,8 @@ Two varieties:
 - Microsoft (R) Roslyn-based basic C# REPL
   (shout out to @gblock for the inspiration)
 - Scripts (no class/global type declaration required) or assemblies
-- Verrry basic initial implementation but *mucho* room for growth
+- Gist persistence of scripts (save to / load from)
+- Verry basic autocomplete
 
 2) CodeSaber.Ice.exe
 - csc.exe-based C# compiler
@@ -18,9 +19,7 @@ Two varieties:
 License: Apache License v2.0
 
 Roadmap
-  - Add gist export to REPL
   - Color/syntax highlighting for REPL?
   - Add script file save/import/execution support in REPL
-  - Expand github support in general
   - Add file persistence in ICE
   - Add nuget support?
